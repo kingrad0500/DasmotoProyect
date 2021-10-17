@@ -1,0 +1,98 @@
+/*
+    FONTS: 
+    font-family: 'Georama', sans-serif; //title
+    font-family: 'Quicksand', sans-serif; //paragraphs and texts
+    font-family: 'Ubuntu', sans-serif; //headlines
+
+    COLOR PALETTE:
+    #D1E8E4
+    #C37B89
+    #BCCC9A
+    #EAE7C6
+*/
+
+/*GENERAL STUFF*/
+body{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Quicksand', sans-serif;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+/*HEADER STYLES*/
+header{
+    text-align: right;
+    font-weight: 400;
+    font-size: 45px;
+    background: url(images/pattern.webp);
+    width: 100%;
+    height: 160px;
+    padding: 0;
+    margin: 0;
+}
+header h1{
+    font-family: 'Georama', sans-serif;
+    padding: 25px;
+    margin: 0;
+    color: whitesmoke;
+}
+/*BRUSHES SECTION*/
+#brushes{
+    text-align: center;
+    font-size: 25px;
+    padding: 1rem 3rem 1rem;
+    background-color: #EAE7C6;
+}
+.brushes-img{
+    border-radius: 150px;
+}
+.headingSection{
+    text-align: center;
+    font-size: 40px;
+}
+.highlighted-text{
+    font-weight: bold;
+    color: blue;
+}
+/*FRAME SECTION*/
+#frames{
+    text-align: center;
+    font-size: 25px;
+    padding: 1rem 3rem 1rem;
+    background-color: #C37B89;
+}
+.frames-img{
+    border-radius: 150px;
+}
+/*PAINT SECTION*/
+#paint{
+    text-align: center;
+    font-size: 25px;
+    padding: 1rem 3rem 1rem;
+    background-color: #D1E8E4;
+}
+.paint-img{
+    border-radius: 150px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #506D84;
+    color: whitesmoke;
+    padding: 2rem 3rem 1rem;
+    text-align: center;
+}
+.icon{
+    margin: auto 8px auto;
+}
+.footerText{
+    font-size: 22px;
+}
+.footerFinalText{
+    font-size: 12px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
